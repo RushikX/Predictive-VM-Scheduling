@@ -2,7 +2,7 @@
 
 A machine learning-based virtual machine scheduler that predicts task runtimes and optimizes scheduling decisions in heterogeneous edge-cloud computing environments.
 
-## 📋 Overview
+## Overview
 
 This project presents a hybrid predictive scheduler that combines:
 
@@ -21,37 +21,6 @@ The scheduler outperforms baseline methods (FCFS, RoundRobin, MinMin, MaxMin, Ra
 - **Real-time Learning**: Online model updates every N tasks
 - **Network-Aware**: Models dynamic latency and bandwidth
 - **Resource Heterogeneity**: Diverse VM configurations (CPU, memory, IOPS, architecture)
-- **Statistical Validation**: Significance tests and ablation studies
-
-## Requirements
-
-### Python Packages
-
-```
-numpy
-pandas
-matplotlib
-scikit-learn
-scipy
-simpy
-
-
-```
-
-## Installation
-
-1. Clone the repository:
-
-```bash
-git clone <repository-url>
-cd results
-```
-
-2. Install dependencies:
-
-```bash
-pip install numpy pandas matplotlib scikit-learn scipy simpy networkx tqdm
-```
 
 ## Results
 
@@ -70,25 +39,17 @@ pip install numpy pandas matplotlib scikit-learn scipy simpy networkx tqdm
 
 ![Stationary ACT](results/stationary_ACT.png)
 
-**Results**: [To be filled with table showing ACT for each scheduler]
-
 #### 95th Percentile Latency (P95)
 
 ![Stationary P95](results/stationary_p95.png)
-
-**Results**: [To be filled with table showing P95 for each scheduler]
 
 #### Deadline Miss Rate
 
 ![Stationary Deadline Miss](results/stationary_deadline_miss.png)
 
-**Results**: [To be filled with table showing deadline miss rate for each scheduler]
-
 #### Makespan
 
 ![Stationary Makespan](results/stationary_makespan.png)
-
-**Results**: [To be filled with table showing makespan for each scheduler]
 
 ---
 
@@ -98,25 +59,17 @@ pip install numpy pandas matplotlib scikit-learn scipy simpy networkx tqdm
 
 ![Bursty ACT](results/bursty_ACT.png)
 
-**Results**: [To be filled with table showing ACT for each scheduler]
-
 #### 95th Percentile Latency (P95)
 
 ![Bursty P95](results/bursty_p95.png)
-
-**Results**: [To be filled with table showing P95 for each scheduler]
 
 #### Deadline Miss Rate
 
 ![Bursty Deadline Miss](results/bursty_deadline_miss.png)
 
-**Results**: [To be filled with table showing deadline miss rate for each scheduler]
-
 #### Makespan
 
 ![Bursty Makespan](results/bursty_makespan.png)
-
-**Results**: [To be filled with table showing makespan for each scheduler]
 
 ---
 
@@ -126,25 +79,17 @@ pip install numpy pandas matplotlib scikit-learn scipy simpy networkx tqdm
 
 ![Heterogeneous ACT](results/heterogeneous_ACT.png)
 
-**Results**: [To be filled with table showing ACT for each scheduler]
-
 #### 95th Percentile Latency (P95)
 
 ![Heterogeneous P95](results/heterogeneous_p95.png)
-
-**Results**: [To be filled with table showing P95 for each scheduler]
 
 #### Deadline Miss Rate
 
 ![Heterogeneous Deadline Miss](results/heterogeneous_deadline_miss.png)
 
-**Results**: [To be filled with table showing deadline miss rate for each scheduler]
-
 #### Makespan
 
 ![Heterogeneous Makespan](results/heterogeneous_makespan.png)
-
-**Results**: [To be filled with table showing makespan for each scheduler]
 
 ---
 
