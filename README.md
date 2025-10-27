@@ -172,9 +172,6 @@ The scheduler outperforms baseline methods (FCFS, RoundRobin, MinMin, MaxMin, Ra
 
 Statistical tests demonstrate that the proposed method shows significant improvements (p < 0.05) across all scenarios for the primary metrics.
 
-[To be filled with detailed statistical test results]
-
----
 
 ## Methodology
 
